@@ -60,10 +60,7 @@ footer {
 @media screen and (max-width: 768px) {
   main {
     display: block;
-    margin: 0px;
-  }
-  .step:first-child {
-    margin-top: 50px;
+    width: 100%;
   }
   .step:last-child {
     margin-bottom: 50px;
@@ -80,5 +77,6 @@ footer {
   .step {
     margin-left: 5%;
     margin-bottom: 20px;
+    width: 90%;
   }
 }
